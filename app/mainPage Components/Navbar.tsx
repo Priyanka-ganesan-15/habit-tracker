@@ -4,7 +4,7 @@ import React from "react";
 import AppIcon from "../SVG_Icons/AppIcon";
 import Link from "next/link";
 import { useAuth } from "@clerk/nextjs";
-// import LogoAndName from "../Components/LogoAndName";
+import LogoAnName from "../components/LogoAndName";
 
 function Navbar() {
   const { userId } = useAuth();
@@ -17,7 +17,7 @@ function Navbar() {
           <div className="text-center  sm:text-left mb-7 sm:mb-0">
             {/* Icon + Name of The App */}
             {/* ----------------------- */}
-            {/* <LogoAndName /> */}
+            <LogoAnName />
           </div>
           {/*  */}
           {/* The buttons */}
