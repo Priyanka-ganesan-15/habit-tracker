@@ -1,7 +1,10 @@
+import HeroSection from "./mainPage Components/HeroSection";
+import Navbar from "./mainPage Components/Navbar";
 
 export default function Home() {
   return <div>
-    <h1 className="poppins font-bold"> Habit Tracker website</h1>
+    <Navbar/>
+    <HeroSection/>
   </div>
 }
  
