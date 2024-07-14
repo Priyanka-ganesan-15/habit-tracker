@@ -1,5 +1,5 @@
 import connectToDB from "@/app/lib/conntectToDB";
-import Area from "@/app/Models/AreaSchema";
+import Area from "@/app/models/AreaSchema";
 import { NextApiRequest, NextApiResponse } from "next";
 import { NextResponse } from "next/server";
 

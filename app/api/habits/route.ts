@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import connectToDB from "@/app/lib/conntectToDB";
-import HabitsCollection from "@/app/Models/HabitSchema";
+import HabitsCollection from "@/app/models/HabitSchema";
 import { Error } from "mongoose";
 
 export async function POST(req: Request) {

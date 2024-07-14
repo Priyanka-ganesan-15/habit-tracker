@@ -1,7 +1,7 @@
 import { Webhook } from "svix";
 import { headers } from "next/headers";
 import { EmailAddress, WebhookEvent } from "@clerk/nextjs/server";
-import User from "@/app/Models/UserSchema";
+import User from "@/app/models/UserSchema";
 import connectToDB from "@/app/lib/conntectToDB";
 
 export async function POST(req: Request) {
