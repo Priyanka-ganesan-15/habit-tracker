@@ -56,7 +56,7 @@ function AllHabitsTopBar() {
             <span className="font-light"></span>
           </span>
           <span className="font-light text-[12px] text-gray-400">
-            Ready to tackel the day?!
+            Ready to tackle the day?!
           </span>
         </div>
       </div>
