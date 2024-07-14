@@ -2,7 +2,7 @@ import React from "react";
 import AppIcon from "../SVG_Icons/AppIcon";
 import { defaultColor } from "@/colors";
 
-function LogoAnName() {
+function LogoAndName() {
   return (
     <div className="flex gap-2 items-center sm:justify-start justify-center">
       <span className="text-2xl font-light flex items-center gap-2 ">
@@ -20,10 +20,10 @@ function LogoAnName() {
         >
           Habit
         </span>
-        <span className="font-light"> Stacker</span>
+        <span className="font-light"> Tracker</span>
       </span>
     </div>
   );
 }
 
-export default LogoAnName;
+export default LogoAndName;

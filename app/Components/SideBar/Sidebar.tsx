@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import LogoAnName from "../LogoAnName";
+import LogoAndName from "../LogoAndName";
 import { useGlobalContextProvider } from "@/app/contextApi";
 import MenuSelection from "./MenuSelection";
 import LogoutSection from "./LogoutSection";
@@ -37,7 +37,7 @@ function Sidebar() {
         !openSideBar ? "max-xl:hidden" : " fixed shadow-lg"
       } flex-grow z-50  p-10 flex-col   min-h-screen transition-all `}
     >
-      <LogoAnName />
+      <LogoAndName />
       <MenuSelection />
       <LogoutSection />
     </div>
