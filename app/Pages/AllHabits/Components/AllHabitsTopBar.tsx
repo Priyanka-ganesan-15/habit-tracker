@@ -52,11 +52,11 @@ function AllHabitsTopBar() {
 
         <div className="flex flex-col max-md:hidden ">
           <span className="text-xl">
-            <span className="font-bold">Hi There</span>
-            <span className="font-light">, Ali</span>
+            <span className="font-bold">Hello</span>
+            <span className="font-light"></span>
           </span>
           <span className="font-light text-[12px] text-gray-400">
-            welcome back!
+            Ready to tackel the day?!
           </span>
         </div>
       </div>
